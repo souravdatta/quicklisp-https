@@ -14,3 +14,11 @@ Once you have a working Quicklisp installed on your system,
 4. Here, you can change the path to your WGET or CURL or any other program that supports downloading https urls.
 5. That's all there is.
 
+#### What to expect
+When installing systems with Quicklisp next time, you should see messages like this:
+```
+WARNING: Using system WGET instead of native Lisp code
+INFO: URL http://beta.quicklisp.org/archive/drakma/2019-11-30/drakma-v2.0.7.tgz
+WARNING: Switching to HTTPS
+INFO: New URL https://beta.quicklisp.org/archive/drakma/2019-11-30/drakma-v2.0.7.tgz
+```
